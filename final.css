@@ -1,7 +1,7 @@
 .top.nav.bar {
-    /*purple nav bar*/
     background-color: burlywood;
     display: flex;
+    justify-content: space-between;
     
     position: relative;
     top: 10px;
@@ -43,4 +43,40 @@
 
 
     }
+}
+
+.company-name{
+    color: ivory;
+    font-family: monospace;
+    font-size: 25px;
+
+    padding: 10px;
+}
+
+body{
+    background-color: lightblue;
+}
+
+footer{ /*Connect With Me*/
+    background-color: burlywood;
+    font-family: monospace;
+
+    border-top: 5px dotted ivory;
+    bottom: 0;
+    width: 100%;
+}
+
+#social{
+    display: flex;
+    justify-content: center;
+    color: ivory;
+}
+
+.social-icon{
+    height: 30px;
+    width: 30px;
+    background-color: burlywood;
+}
+
+@media (min-width:300px){
 }
