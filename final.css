@@ -1,0 +1,46 @@
+.top.nav.bar {
+    /*purple nav bar*/
+    background-color: burlywood;
+    display: flex;
+    
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: -10px 12px 0px 3px gray;
+    width: auto;
+    overflow-wrap: break-word;
+}
+
+.top-nav-bar-list {
+    /*the group of nav bar links*/
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.top-nav-bar-list a {
+    /*each individual link*/
+    color: ivory;
+    text-decoration: none;
+    padding: 20px;
+    justify-content: flex-start;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+.top-nav-bar-list p {
+    /*separator pipes*/
+    color: #013328;
+}
+
+@media (hover: hover) {
+
+    /*mouse hover interactive link*/
+    .top-nav-bar-list a:hover {
+        color: #013328;
+
+
+    }
+}
